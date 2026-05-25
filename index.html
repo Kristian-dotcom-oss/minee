@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>trademasters.com</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+<body>
+      <!-- Navigation -->
+      <nav class="navbar">
+          <div class="nav-container">
+              <a href="#" class="nav-logo">TRADE<span>MASTERS</span></a>
+              <input type="checkbox" id="menu-toggle" class="menu-toggle">
+              <label for="menu-toggle" class="hamburger">
+              <span></span><span></span><span></span>
+              </label>
+              <ul class="nav-links">
+                  <li><a href="#hero" class="js-nav-link active">Home</a></li>
+                  <li><a href="#solutions" class="js-nav-link">Solutions</a></li>
+                  <li><a href="#about" class="js-nav-link">About Us</a></li>
+                  <li><a href="#projects" class="js-nav-link">Projects</a></li>
+                  <li><a href="#contact" class="nav-btn js-nav-link">Contact Us</a></li>
+              </ul>
+          </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <header id="hero" class="hero-section">
+          <!-- Background Slideshow-->
+          <div class="slideshow-container">
+              <div class="slide" style="background-image: linear-gradient(rgba(10,10,12,0.75), rgba(10,10,12,0.75)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1600');"></div>
+              <div class="slide" style="background-image: linear-gradient(rgba(10,10,12,0.75), rgba(10,10,12,0.75)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1600');"></div>
+              <div class="slide" style="background-image: linear-gradient(rgba(10,10,12,0.75), rgba(10,10,12,0.75)), url('https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=1600');"></div>
+          </div>
+    
+      <!-- Foreground Welcome Content (Unaffected by slideshow) -->
+      <div class="hero-content">
+          <p class="hero-subtitle">PREMIUM GENERAL PROCUREMENT & LOGISTICS</p>
+          <h1 class="hero-title">Elite Sourcing.<br>Seamless Delivery.</h1>
+          <p class="hero-description">
+              From critical enterprise stationery and office suites to essential industrial safety gear and custom corporate supplies—we procure and deliver excellence on demand.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#solutions" class="cta-primary">Explore Solutions</a>
+            <a href="#contact" class="cta-secondary">Let's Talk</a>
+        </div>
+      </div>
+      </header>
+
+      <section id="solutions" class="solutions-section">
+        <div class="solutions-container">
+            
+              <!-- Left Column -->
+          <div class="solutions-text">
+              <p class="solutions-tag">OUR CAPABILITIES</p>
+              <h2 class="solutions-heading">End-to-End Procurement Built for Enterprise Scale.</h2>
+              <p class="solutions-paragraph">
+                  We eliminate the friction of supply chain management. Whether your enterprise requires complete IT infrastructure overhauls—including top-tier computers and server equipment—or bulk distribution of specialized logistics assets, stationary, and premium safety gear, we source it instantly.
+              </p>
+              <p class="solutions-paragraph">
+                  Leveraging our elite Country-wide vendor network, we guarantee rapid turnaround times, rigorous quality vetting, and white-glove delivery directly to your facilities. You outline the need; we deploy the solution.
+              </p>
+              <div class="solutions-stats">
+              <div class="stat-item">
+                  <h3>100%</h3>
+                  <p>Premium Quality</p>
+              </div>
+              <div class="stat-item">
+                  <h3>24/7</h3>
+                  <p>Servicing</p>
+              </div>
+          </div>
+        </div>
+          
+              <!-- Right Column -->
+              <div class="solutions-slider-wrapper">
+                <div class="slider-track" id="sliderTrack">
+                  <!-- Slide 1 -->
+                  <div class="solutions-slide active">
+                    <img src="https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&q=80&w=800" alt="Computer Infrastructure Sourcing">
+                    <div class="slide-caption">Enterprise IT & Systems</div>
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="solutions-slide">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800" alt="Logistics and Freight Delivery">
+                    <div class="slide-caption">Secure Country-wide Delivery</div>
+                  </div>
+                  <!-- Slide 3 -->
+                  <div class="solutions-slide">
+                    <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&q=80&w=800" alt="Safety Equipment and Gloves Sourcing">
+                    <div class="slide-caption">Industrial PPE & Supplies</div>
+                  </div>
+                </div>
+                <!-- Slider Navigation Controls -->
+                <div class="slider-controls">
+                  <button class="slider-btn prev-btn" id="prevBtn">&#8592;</button>
+                  <button class="slider-btn next-btn" id="nextBtn">&#8594;</button>
+                </div>
+              </div>
+            </div>
+      </section>
+
+                    <section id="about" class="about-section">
+  <div class="about-container">
+    
+    <!-- Upper Half: Company Mission & Profile -->
+    <div class="about-header">
+      <p class="about-tag">THE FIRM</p>
+      <h2 class="about-heading">Architects of Precision Logistics</h2>
+      <div class="about-grid-text">
+        <p>
+          Founded on the principles of absolute speed and uncompromising quality, we have grown into a premier general dealing and procurement force. We don't just move freight or source inventory—we act as critical operational partners to enterprises, scaling their capabilities silently and efficiently behind the scenes.
+        </p>
+        <p>
+          Our team is comprised of seasoned logistics specialists, Country-wide vendor relation managers, and strict quality control officers. By merging state-of-the-art procurement tech with old-school boots-on-the-ground reliability, we make sure your business is never left waiting for the assets it needs to thrive.
+        </p>
+      </div>
+    </div>
+
+    <!-- Lower Half: Staff Matrix (5 Members, CEO Center) -->
+    <div class="team-matrix">
+      
+      <!-- Staff 1 -->
+      <div class="team-card card-1">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600" alt="Sarah Jenkins">
+        <div class="card-overlay">
+          <div class="member-info">
+            <h3>Sarah Jenkins</h3>
+            <p>Chief Operating Officer</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Staff 2 -->
+      <div class="team-card card-2">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600" alt="Marcus Vance">
+        <div class="card-overlay">
+          <div class="member-info">
+            <h3>Marcus Vance</h3>
+            <p>Head of Global Sourcing</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Staff 3: The CEO (Will be centered via CSS Flex order) -->
+      <div class="team-card card-ceo">
+        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=600" alt="Kristian Josh">
+        <div class="card-overlay">
+          <div class="member-info">
+            <span class="ceo-badge">FOUNDER</span>
+            <h3>Emmanuel Ngalande</h3>
+            <p>Chief Executive Officer</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Staff 4 -->
+      <div class="team-card card-4">
+        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=600" alt="David Chen">
+        <div class="card-overlay">
+          <div class="member-info">
+            <h3>David Chen</h3>
+            <p>Director of Logistics</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Staff 5 -->
+      <div class="team-card card-5">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600" alt="Elena Rostova">
+        <div class="card-overlay">
+          <div class="member-info">
+            <h3>Elena Rostova</h3>
+            <p>Vetting & Compliance</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects-section">
+  <div class="projects-container">
+    
+    <!-- Section Introduction Header -->
+    <div class="projects-intro">
+      <p class="projects-tag">PROVEN EXECUTION</p>
+      <h2 class="projects-heading">Operational Manifest & Past Performance</h2>
+      <p class="projects-subheading">
+        A real-time ledger of high-priority procurement contracts executed with flawless precision across global corporate ecosystems.
+      </p>
+    </div>
+
+    <!-- Project Node 1: Completed Sourcing -->
+    <div class="project-row reversed">
+      <div class="project-visual">
+        <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&q=80&w=800" alt="Enterprise IT Deployment">
+        <div class="status-indicator completed">Fulfillment Complete</div>
+      </div>
+      <div class="project-details">
+        <span class="project-category">Information Technology</span>
+        <h3>Enterprised High End Laptops Sourcing & Setup</h3>
+        <p class="project-desc">
+          Sourced, configured, and delivered 10+ high-performance workstations, Secured to ensure Customer Satisfaction. 
+        </p>
+        <p class="project-capability">
+          <strong>Capability Metric:</strong> Seamless zero-defect delivery within 30 business days, backed by our comprehensive warranty and immediate tier-1 support framework.
+        </p>
+        <div class="project-meta">
+          <span><strong>Client:</strong> Telecom Networks Malawi LTD.</span>
+          <span><strong>Scope:</strong> Hardware Procurement</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Node 2: Active Sourcing / Delivery -->
+    <div class="project-row">
+      <div class="project-visual">
+        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800" alt="Bulk Logistics and Supplies">
+        <div class="status-indicator active-transit">
+          <span class="pulse-dot"></span> In Transit / Active
+        </div>
+      </div>
+      <div class="project-details">
+        <span class="project-category">Information Technology</span>
+        <h3>Regional Corporate Stationary Equipment</h3>
+        <p class="project-desc">
+          Currently deploying an ongoing, high-volume contract consisting of premium Stationary equipment.
+        </p>
+        <p class="project-capability">
+          <strong>Capability Metric:</strong> Live supply chain tracking combined with rigorous batch vetting guarantees that every piece of safety asset exceeds national compliance laws before clearing delivery docks.
+        </p>
+        <div class="project-meta">
+          <span><strong>Client:</strong> Ministry Of Health Malawi</span>
+          <span><strong>Scope:</strong> Stationary Hardware Procurement</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Node 3: Completed Stationery/Office Fitout -->
+    <div class="project-row reversed">
+      <div class="project-visual">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" alt="Corporate Office Fitout">
+        <div class="status-indicator completed">Fulfillment Complete</div>
+      </div>
+      <div class="project-details">
+        <span class="project-category">Office Environments</span>
+        <h3>Turnkey Corporate Headquarters Stationery Fit-Out</h3>
+        <p class="project-desc">
+          Procured and organized thousands of individual premium stationery suites, presentation equipment, and essential administrative operational assets to launch an entire corporate campus simultaneously.
+        </p>
+        <p class="project-capability">
+          <strong>Capability Metric:</strong> Tailored white-glove distribution—assets were curated, pre-sorted by department floor plans, and delivered directly to workstations overnight to minimize operational down-time.
+        </p>
+        <div class="project-meta">
+          <span><strong>Client:</strong> Omni Media Networks</span>
+          <span><strong>Scope:</strong> Turnkey Supply</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    
+    <!-- Left Column: Interactive Request Portal -->
+    <div class="contact-form-wrapper">
+      <p class="contact-tag">SECURE UPLINK</p>
+      <h2 class="contact-heading">Initialize Procurement Request</h2>
+      
+      <form class="vip-form" onsubmit="event.preventDefault();">
+    <!-- Step 1: Interactive Category Selection -->
+        <div class="form-group">
+          <label class="field-label">Select Service Vector</label>
+          <div class="vector-grid">
+            <div class="vector-chip active" onclick="toggleChip(this)">IT & Hardware</div>
+            <div class="vector-chip" onclick="toggleChip(this)">PPE & Safety</div>
+            <div class="vector-chip" onclick="toggleChip(this)">Office Stationery</div>
+            <div class="vector-chip" onclick="toggleChip(this)">Custom Logistics</div>
+          </div>
+        </div>
+
+        <!-- Step 2: Form Fields -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="client-name" class="field-label">Corporate Representative</label>
+            <input type="text" id="client-name" placeholder="Emmanuel Ngalande" required>
+          </div>
+          <div class="form-group">
+            <label for="client-company" class="field-label">Enterprise Entity</label>
+            <input type="text" id="client-company" placeholder="ABC LTD" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="client-email" class="field-label">Secure Email Address</label>
+          <input type="email" id="client-email" placeholder="abc@company.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="client-message" class="field-label">Manifest Specifications / Requirements</label>
+          <textarea id="client-message" rows="5" placeholder="Outline your timeline, quantity demands, and specific item requirements here..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Transmit Request</button>
+      </form>
+    </div>
+
+    <!-- Right Column: Direct VIP Channels -->
+    <div class="contact-info-wrapper">
+      <div class="info-glass-card">
+        <h3>Direct Channels</h3>
+        <p class="info-intro">For immediate emergency logistics or high-priority tenders, interface directly with our desk:</p>
+        
+        <div class="info-link-group">
+          <div class="info-item">
+            <span class="info-icon">&#9742;</span>
+            <div>
+              <h4>Priority Lines</h4>
+              <p>+265-(0)-883-855-339</p>
+              <p>+265-(0)-995-445-640</p>
+              <p>+265-(0)-884-170-568</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <span class="info-icon">&#9993;</span>
+            <div>
+              <h4>Encrypted E-mail Communications</h4>
+              <p>trademasters@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <span class="info-icon">&#128205;</span>
+            <div>
+              <h4>HQ Operations</h4>
+              <p>Chimwankhunda,<br>Blantyre</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="system-clearance">
+          <span class="clearance-indicator"></span>
+          <p>System Online // SECURE SSL 256-BIT ENCRYPTION</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <!-- Column 1: Brand & Executive Summary -->
+    <div class="footer-column brand-summary">
+      <a href="#" class="footer-logo"><span>TRADEMASTERS</span> GENERAL SUPPLIERS</a>
+      <p class="footer-bio">
+        Providing institutional-grade general procurement, Country wide supply chain fulfillment, and high-priority logistics solutions for enterprise clients.
+      </p>
+      <!-- Social Media Media Icons Block -->
+      <div class="footer-socials">
+        <a href="#" class="social-icon-btn" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <a href="#" class="social-icon-btn" aria-label="X / Twitter">
+          <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="#" class="social-icon-btn" aria-label="Instagram">
+          <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Column 2: Navigation Vectors -->
+    <div class="footer-column">
+      <h4>Navigation</h4>
+      <ul class="footer-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#solutions">Solutions Mapping</a></li>
+        <li><a href="#about">About Our Firm</a></li>
+        <li><a href="#projects">Project Manifest</a></li>
+        <li><a href="#contact">Initialize Uplink</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Operational System Metrics -->
+    <div class="footer-column">
+      <h4>System Status</h4>
+      <ul class="system-metrics">
+        <li><span class="metric-dot green"></span> Network Status: <strong>Optimal</strong></li>
+        <li><span class="metric-dot green"></span> Encrypted Core: <strong>256-Bit SSL</strong></li>
+        <li><span class="metric-dot green"></span> Global Logistics: <strong>Active</strong></li>
+        <li><span class="metric-dot amber"></span> Sourcing Load: <strong>High Demand</strong></li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Quick Asset Class Overview -->
+    <div class="footer-column">
+      <h4>Supply Vectors</h4>
+      <p class="vectors-text">
+        Enterprise IT Systems // Industrial PPE & Safety Apparel // Comprehensive Office Suites // Customized Tactical & Storage Equipment.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Bottom Utility Legal Strip -->
+  <div class="footer-bottom">
+    <div class="footer-bottom-container">
+      <p>&copy; 2026 TRADEMASTERS GENERAL SUPPLIERS. All Rights Reserved.</p>
+      <div class="legal-links">
+        <a href="#">Clearance Codes</a>
+        <a href="#">Terms of Protocol</a>
+        <a href="#">Privacy Ledger</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+                    <script src="src/js/main.js"></script>
+
+    </body>
+</html>
